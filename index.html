@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Github Respository</title>
   </head>
-  <body>
-    <div class="container">
-      <form>
-        <label for="text">Username: </label>
+  <body class="bg-secondary">
+    <div class="container d-flex justify-content-ceneter align-items-center">
+      <form class="d-grid gap-3 mx-auto my-auto fs-5 w-25">
+        <label class="text-white" for="text">Username: </label>
         <input
-          class="form-control"
+          class="form-control fs-5"
           id="text"
           autocomplete="off"
           aria-autocomplete="none"
         />
+        <input type="submit" value="Submit Form" class="btn btn-primary form-control fs-5">
       </form>
     </div>
   </body>
